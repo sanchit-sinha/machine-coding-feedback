@@ -31,14 +31,6 @@ public class Main {
         for (int i = 0; i < numPlayers; i++)
             playerList.add(new Player(scan.next(), 0, targetCell));
 
-        // debug
-//        for (TeleporterEntity teleporter : teleporterList)
-//            System.out.println("start: " + teleporter.getStartCell() +
-//                    ", end: " + teleporter.getEndCell());
-//
-//        for (Player player : playerList)
-//            System.out.println(player.getName() + " is at " + player.getPosition());
-
         List<Dice> diceList = new ArrayList<>();
         diceList.add(new Dice());
 
