@@ -1,7 +1,7 @@
 package org.machinecoding;
 
 import org.machinecoding.models.Board;
-import org.machinecoding.models.BoardEntity;
+import org.machinecoding.services.GameController;
 import org.machinecoding.models.Dice;
 import org.machinecoding.models.Player;
 import org.machinecoding.models.teleports.Ladder;
@@ -34,8 +34,8 @@ public class Main {
         List<Dice> diceList = new ArrayList<>();
         diceList.add(new Dice());
 
-        BoardEntity boardEntity = new BoardEntity(new Board(targetCell),
+        GameController gameController = new GameController(new Board(targetCell),
                 teleporterList, playerList, diceList);
-        boardEntity.start();
+        gameController.start();
     }
 }

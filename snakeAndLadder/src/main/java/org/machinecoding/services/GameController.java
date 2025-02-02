@@ -1,5 +1,8 @@
-package org.machinecoding.models;
+package org.machinecoding.services;
 
+import org.machinecoding.models.Board;
+import org.machinecoding.models.Dice;
+import org.machinecoding.models.Player;
 import org.machinecoding.models.teleports.TeleporterEntity;
 import org.machinecoding.strategy.DiceMovementStrategy;
 import org.machinecoding.strategy.GameMovementStrategy;
@@ -7,7 +10,7 @@ import org.machinecoding.strategy.TeleporterMovementStrategy;
 
 import java.util.List;
 
-public class BoardEntity {
+public class GameController {
     private final Board board;
     private final List<TeleporterEntity> teleports;
     private final List<Player> players;
@@ -15,7 +18,7 @@ public class BoardEntity {
 
     private GameMovementStrategy movementStrategy;
 
-    public BoardEntity(Board board, List<TeleporterEntity> teleports, List<Player> players, List<Dice> dices) {
+    public GameController(Board board, List<TeleporterEntity> teleports, List<Player> players, List<Dice> dices) {
         this.board = board;
         this.teleports = teleports;
         this.players = players;
