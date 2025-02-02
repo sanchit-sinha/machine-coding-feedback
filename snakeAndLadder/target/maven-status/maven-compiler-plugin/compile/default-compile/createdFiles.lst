@@ -1,0 +1,13 @@
+org/machinecoding/strategy/TeleporterMovementStrategy.class
+org/machinecoding/models/teleports/Ladder.class
+org/machinecoding/models/Dice.class
+org/machinecoding/models/Board.class
+org/machinecoding/strategy/MovementStrategy.class
+org/machinecoding/models/BoardEntity.class
+org/machinecoding/models/teleports/Teleporter.class
+org/machinecoding/models/teleports/TeleporterEntity.class
+org/machinecoding/strategy/DiceMovementStrategy.class
+org/machinecoding/models/Player.class
+org/machinecoding/strategy/GameMovementStrategy.class
+org/machinecoding/models/teleports/Snake.class
+org/machinecoding/Main.class

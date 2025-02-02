@@ -1,0 +1,13 @@
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/Main.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/Board.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/BoardEntity.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/Dice.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/Player.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/teleports/Ladder.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/teleports/Snake.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/teleports/Teleporter.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/models/teleports/TeleporterEntity.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/strategy/DiceMovementStrategy.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/strategy/GameMovementStrategy.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/strategy/MovementStrategy.java
+/Users/sanchitsinha/Desktop/machinecode/machineCoding/src/main/java/org/machinecoding/strategy/TeleporterMovementStrategy.java
