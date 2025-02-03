@@ -11,5 +11,6 @@
 
     <modules>
         <module>snakeAndLadder</module>
+        <module>splitWise</module>
     </modules>
 </project>
